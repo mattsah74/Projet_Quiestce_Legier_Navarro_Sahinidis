@@ -4,30 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:rotationX="1"
     tools:context=".MainActivity2">
 
     <Button
         android:id="@+id/button_lien"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="279dp"
+        android:layout_height="67dp"
         android:text="Rejoindre une partie"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="200dp" />
 
     <Button
         android:id="@+id/button_creersalon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="84dp"
         android:text="Créer une partie"
-        tools:layout_editor_absoluteX="484dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteX="489dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="25dp"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="287dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
