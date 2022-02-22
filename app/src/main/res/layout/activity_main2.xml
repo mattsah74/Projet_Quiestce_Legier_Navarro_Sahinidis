@@ -8,17 +8,34 @@
 
     <Button
         android:id="@+id/button_lien"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="261dp"
+        android:layout_height="78dp"
         android:text="Rejoindre une partie"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="215dp" />
 
     <Button
         android:id="@+id/button_creersalon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="249dp"
+        android:layout_height="80dp"
         android:text="Créer une partie"
-        tools:layout_editor_absoluteX="489dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteX="503dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="147dp"
+        android:layout_height="139dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="139dp"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:layout_editor_absoluteX="563dp"
+        tools:layout_editor_absoluteY="65dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
