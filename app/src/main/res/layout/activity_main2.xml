@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <Button
+        android:id="@+id/button_lien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejoindre un lien salon"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button_creersalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer une partie"
+        tools:layout_editor_absoluteX="489dp"
+        tools:layout_editor_absoluteY="181dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
