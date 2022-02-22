@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Projet_Quiestce_Legier_Navarro_Sahinidis" />
+        android:theme="@style/Theme.Projet_Quiestce_Legier_Navarro_Sahinidis">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+    </application>
 
 </manifest>
-
-
