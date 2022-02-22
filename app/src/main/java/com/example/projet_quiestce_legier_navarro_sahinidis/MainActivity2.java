@@ -2,6 +2,7 @@ package com.example.projet_quiestce_legier_navarro_sahinidis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.Image;
 import android.os.Bundle;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -12,6 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 
-
+    Image teste = new Image();
+    teste.test();
 }
 

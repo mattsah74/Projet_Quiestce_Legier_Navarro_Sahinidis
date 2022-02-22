@@ -5,8 +5,9 @@ import android.media.Image;
 import java.util.ArrayList;
 
 public class image {
-    String categorie[] = {"Acteurs", "Acteur X", "Peufien", "Youtubers/streamer","TDB", "Sportif","Chanteur", "Perso de film"}
-    public void test()
+    String categorie[] = {"Acteurs", "Acteur X", "Peufien", "Youtubers/streamer","TDB", "Sportif","Chanteur", "Perso de film"};
+
+    public void test(){
 
         File path = new File("C:\\Users\\matth\\Documents\\Cours\\S3\\Programmation\\Projet_quiestce_final\\app\\src\\main\\res\\drawable-v24\\categorie test");
             ArrayList<Image> cate1 = new ArrayList<Image>();
@@ -22,6 +23,10 @@ public class image {
                 continue;
             }
         }
-            for (int i=0; i>)
+            for (int i=0; i>cate1.size(); i++){
+                if (cate1!=null){
+                    System.out.print("0 ");
+                }
+            }
     }
     }
