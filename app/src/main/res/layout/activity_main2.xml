@@ -10,7 +10,7 @@
         android:id="@+id/button_lien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rejoindre un lien salon"
+        android:text="Rejoindre un  salon"
         tools:layout_editor_absoluteX="73dp"
         tools:layout_editor_absoluteY="181dp" />
 
