@@ -10,12 +10,9 @@
         android:id="@+id/button_lien"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="502dp"
-        android:rotation="38"
-        android:rotationX="59"
-        android:text="Rejoindre un lien salon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="73dp" />
+        android:text="Rejoindre une partie"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="181dp" />
 
     <Button
         android:id="@+id/button_creersalon"
