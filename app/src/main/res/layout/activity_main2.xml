@@ -8,34 +8,25 @@
 
     <Button
         android:id="@+id/button_lien"
-        android:layout_width="261dp"
-        android:layout_height="78dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Rejoindre une partie"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="215dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="181dp" />
 
     <Button
         android:id="@+id/button_creersalon"
-        android:layout_width="249dp"
-        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Créer une partie"
-        tools:layout_editor_absoluteX="503dp"
-        tools:layout_editor_absoluteY="218dp" />
+        tools:layout_editor_absoluteX="484dp"
+        tools:layout_editor_absoluteY="181dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="147dp"
-        android:layout_height="139dp"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="61dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="139dp"
-        android:layout_height="139dp"
-        app:srcCompat="@android:drawable/ic_menu_send"
-        tools:layout_editor_absoluteX="563dp"
-        tools:layout_editor_absoluteY="65dp" />
-
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="25dp"
+        tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
