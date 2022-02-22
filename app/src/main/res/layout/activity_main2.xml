@@ -38,4 +38,9 @@
         app:srcCompat="?android:attr/actionModeWebSearchDrawable"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </androidx.constraintlayout.widget.ConstraintLayout>
