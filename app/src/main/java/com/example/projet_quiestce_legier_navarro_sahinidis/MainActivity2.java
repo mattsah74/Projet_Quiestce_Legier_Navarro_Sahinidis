@@ -16,12 +16,12 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     BufferedImage image = ImageIO.read("C:\\Users\\matth\\Documents\\Cours\\S3\\Programmation\\Projet_quiestce_final\\app\\src\\main\\res\\drawable-v24\\cate_test");
-    List<BufferedImage> images = new ArrayList<BufferedImage>();
-        images.add(image);
-        for (int i=0; i<images.size() ; i++){
-        if(images[i] != null){
-            System.out.print("0 ");
-        }
+    List<BufferedImage> images = new ArrayList<BufferedImage>(2);
+        images.add(0,image);
+        for (int i=0; i<3 ; i++){
+            if(images[i] != null){
+                System.out.print("0 ");
+            }
     }
 }
 
