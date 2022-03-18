@@ -13,6 +13,15 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        TextView test = new TextView (context : this);
+        text.setText("Antho le plus bo");
+
+        button_lien.setOnClickListener {
+            val intent = Intent(packageContext:this, Creation_partie::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
     BufferedImage image = ImageIO.read("C:\\Users\\matth\\Documents\\Cours\\S3\\Programmation\\Projet_quiestce_final\\app\\src\\main\\res\\drawable-v24\\cate_test");

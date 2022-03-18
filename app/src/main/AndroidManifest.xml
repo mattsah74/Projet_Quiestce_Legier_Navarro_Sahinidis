@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_Quiestce_Legier_Navarro_Sahinidis">
         <activity
+            android:name=".Creation_partie"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
     </application>
